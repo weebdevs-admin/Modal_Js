@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg_color{
+    background-color: rgb(213, 206, 206);
+}
+.modal{
+    display: none;
+    height: 100vh;
+    width: 35%;
+    position: absolute;
+    right: 0;
+    background-color:white;
+    transition: all ease 0.6s;
+}
+.modal__title{
+    text-align: center;
+    margin-top: 50px;
+}
+.modal__exit{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+.btn{
+    background-color: blue;
+    padding: 10px 50px;
+    border-radius: 6px;
+    border: none;
+    margin: 50px;
+    color: white;
+    cursor: pointer;
+}
+.modal2{
+    display: block;
+
+}
